@@ -1,0 +1,107 @@
+.header{
+	top: 0;
+	width: 100%;
+	background-color: #004080;
+	min-height: 70px;
+	color: white;
+}
+.header-itemleft{
+	padding-left: 25px;
+	float: left;	
+}
+.header-itemright{
+	padding-right: 80px;
+        padding-top: 25px;
+	float: right;
+	color: white;
+}
+
+.header-itemright-Fav{
+        padding-right:10px;
+        padding-top: 25px;
+	float: right;
+	color: white;
+}
+.header-itemright-Mov{
+	padding-right: 70px;
+        padding-top: 25px;
+	float: right;
+	color: white;
+}
+
+.body-main{
+	padding-left: 75px;
+padding-top:50px;
+font-size:20px;
+}
+
+th{
+	width:250px;
+	text-align: center;
+        
+}
+td{
+	text-align: center;
+	font-size: 20px;
+}
+.th-allignleft
+{
+   text-align:left;
+}
+.th-allignright
+{
+   text-align:right;
+}
+.td-allignleft
+{
+    text-align:left;
+}
+.td-allignright
+{
+   text-align:right;
+}
+.save{
+	padding-left: 50px;
+	font-size: 42px;
+}
+.save1{
+	color:#00b300;
+	padding-left: 50px;
+	font-size: 25px;
+}
+.button {
+  background-color: #004080;
+  border: none;
+  color: white;
+  padding: 15px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.header-img{
+padding-top:15px;
+height:40px;
+width:40px;
+padding-left:40px;
+
+}
+.edittable
+{
+color:#595959;
+padding-top:25px;
+}
+
+footer
+{
+background-color:#bfbfbf;
+ position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: black;
+padding-left:5px;
+
+}
