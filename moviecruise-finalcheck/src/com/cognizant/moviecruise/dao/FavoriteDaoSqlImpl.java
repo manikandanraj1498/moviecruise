@@ -67,10 +67,7 @@ public class FavoriteDaoSqlImpl implements FavoriteDao {
 						.append("select mi.mo_id,mi.mo_title,mi.mo_box_office,mi.mo_active,mi.mo_date_of_launch,mi.mo_genre,mi.mo_has_teaser from movies mi ")
 						.append("inner join favorites fv on mi.mo_id=fv.fe_mo_id where fv.fe_us_id=?");
 				System.out.println("SqlString:" + sqlBuffer.toString());
-
-				preparedStatement = connection.prepareStatement(sqlBuffer
-						.toString());
-
+				preparedStatement = connection.prepareStatement(sqlBuffer.toString());
 				preparedStatement.setLong(1, userId);
 				resultSet = preparedStatement.executeQuery();
 
@@ -96,8 +93,7 @@ public class FavoriteDaoSqlImpl implements FavoriteDao {
 					movieList.add(movie);
 				}
 				favorites.setMovieList(movieList);
-				favorites.setNumOfFavorites(getNumOfFavorites(userId,
-						connection));
+				favorites.setNumOfFavorites(getNumOfFavorites(userId,connection));
 				System.out.println("Records fetched successfully");
 			}
 		} catch (SQLException e) {

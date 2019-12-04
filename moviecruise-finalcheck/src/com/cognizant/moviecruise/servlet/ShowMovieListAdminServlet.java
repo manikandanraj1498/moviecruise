@@ -10,7 +10,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.cognizant.moviecruise.dao.MovieDao;
-import com.cognizant.moviecruise.dao.MovieDaoCollectionImpl;
 import com.cognizant.moviecruise.dao.MovieDaoSqlImpl;
 import com.cognizant.moviecruise.model.Movies;
 

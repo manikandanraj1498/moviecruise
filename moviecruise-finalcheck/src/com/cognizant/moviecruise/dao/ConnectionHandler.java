@@ -10,7 +10,7 @@ import java.util.Properties;
 
 /**
  * 
- * @author Prakash_K
+ * @author ManiKandan V
  *
  */
 public class ConnectionHandler {

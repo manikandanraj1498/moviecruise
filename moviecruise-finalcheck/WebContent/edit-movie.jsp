@@ -37,7 +37,7 @@
 			onsubmit="return ValidateMovie()" method="post">
 			<table style="width: 100%">
 				<tr>
-					<th colspan="4" class="edittable"><label for="mtitle">Title</th>
+					<th colspan="4" class="edittable"><label for="mtitle">Title</label></th>
 				</tr>
 				<tr>
 					<td colspan="4"><input type="text" name="title" id="mtitle"
@@ -48,7 +48,7 @@
 					<th class="edittable">Active</th>
 					<th class="edittable"><label for="mdate">Date of
 							Launch</label> </th>
-					<th class="edittable"><label for="mgenre">Genre</th>
+					<th class="edittable"><label for="mgenre">Genre</label></th>
 				</tr>
 				<tr>
 					<td><input type="text" style="height: 25px" id="mgross"
